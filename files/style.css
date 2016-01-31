@@ -52,13 +52,33 @@ a:active, a:visited, a:focus {
 }
 
 h1{
-  font-size: 2em;
+  font-size: 3em;
   font-family: "orator-std",sans-serif;
 }
 
 h2{
-  font-size: 1.2em;
+  font-size: 2em;
   font-family: "orator-std",sans-serif;
+  color: grey;
+}
+
+p{
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-before: 1e
+    margin-after: 1em
+    margin-start: 0px
+    margin-end: 0px;
+}
+
+.project-description{
+  font-size: 1.2em;
+  line-height: 1.58;
+  font-family: "acumin-pro", sans-serif;
+
 }
 
 
