@@ -82,6 +82,28 @@ p{
 
 }
 
+.imglarge{
+  width: 100%;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.imghalfleft{
+  width: 50%;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  padding-right: .5em;
+  float: left;
+}
+
+.imghalfright{
+  width: 50%;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  padding-left: .5em;
+  float: left;
+}
+
 
 /*  --------  NAV  --------  */
 
