@@ -3,28 +3,28 @@ $(document).ready(function () {
     //layout
     $(window).scroll(function() {
 
-        var ws = $(window).scrollTop();
-        var windowHeight = $( window ).height();
-        var hehe = 200;
+        // var ws = $(window).scrollTop();
+        // var windowHeight = $( window ).height();
+        // var hehe = 200;
 
-        if(ws < hehe){
-            $(".footer").fadeOut();            
-        }
-        if(ws >= hehe){
-            $(".footer").fadeIn();            
-        }
+        // if(ws < hehe){
+        //     $(".footer").fadeOut();            
+        // }
+        // if(ws >= hehe){
+        //     $(".footer").fadeIn();            
+        // }
 
 
-        if (ws >= hehe-100){
-            $("nav.menu").css({"padding-top":"16", "background-color":"white"});
-        }else{$("nav.menu").css({"padding-top":"30", "background-color":"transparent"});}
+        // if (ws >= hehe-100){
+        //     $("nav.menu").css({"padding-top":"16", "background-color":"white"});
+        // }else{$("nav.menu").css({"padding-top":"30", "background-color":"transparent"});}
     });
   
   //head nav
-  $('#head-nav').append("<div class='container'><div id='zhen'><a href='http://zzhen.us/'class='white'>Zhen Liu</a></div><div class='right' id='navmenu'><ul><li><a href='http://zzhen.us/#works'>works</a></li><li><a href='http://zzhen.us/blog' target='_blank'>blog</a></li><li><a href='http://zzhen.us/about'>about</a></li></ul></div></div>");
+  $('#head-nav').append("<link href='https://fonts.googleapis.com/css?family=Catamaran:400,600|Yanone+Kaffeesatz:400,700' rel='stylesheet'><div class='container'><div id='zhen'><a href='http://zzhen.us/'class='white'>ZHEN L</a></div><div class='right' id='navmenu'><ul><li><a href='http://zzhen.us/#works'>WORKS</a></li><li><a href='http://zzhen.us/blog' target='_blank'>BLOG</a></li><li><a href='http://zzhen.us/about'>ABOUT</a></li></ul></div></div>");
 
    //foot
-   $('#menu-footer').append("<ul id='menu-list'><li>© 2016 zhen liu</li><li class='right'><a href='mailto:zzzheeen@gmail.com'target='_blank'><img src='/files/social/email.png'></a></li></ul>");
+   $('body').append("<footer>All images on this site are Copyright © 2016. Website hand coded by Zhen.</footer>");
 
 
        $("#aboutIcon").click(function () {

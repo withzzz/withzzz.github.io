@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 0 30px 0;
   background-color: #fff;
   color: #000;
 }
@@ -20,27 +20,28 @@ body {
   opacity: 1
 }
 
-@font-face { font-family: "orator-std"; src: url('fonts/OratorStd.otf'); } 
+/*@font-face { font-family: "orator-std"; src: url('fonts/OratorStd.otf'); } */
 
 
 
 a {
   text-decoration: none  !important;
-  color: #000;
+  color: #999;
 }
 
-a:hover{
+
+
+a:active, a:visited {
   text-decoration: none !important;
-  color: rgb(0, 200, 100);
+  color: #999;
+}
+a:hover, a:focus {
+  color: #86d2c3;
 }
 
-a:active, a:visited, a:focus {
-  text-decoration: none !important;
-  color: #000;
-}
 
 .container{
-  max-width: 960px !important;
+  max-width: 1425px !important;
 }
 
 .left{
@@ -52,14 +53,15 @@ a:active, a:visited, a:focus {
 }
 
 h1{
-  font-size: 3em;
-  font-family: "orator-std",sans-serif;
+  font-size: 2em;
+  letter-spacing: 3px;
+  font-family: "Yanone Kaffeesatz",sans-serif;
 }
 
 h2{
-  font-size: 2em;
-  font-family: "orator-std",sans-serif;
-  color: grey;
+  font-size: 1.5em;
+  font-family: "acumin-pro",sans-serif;
+  color: #909090;
 }
 
 h3{
@@ -84,6 +86,7 @@ p{
   line-height: 1.58;
   font-family: "acumin-pro", sans-serif;
   font-weight: 100;
+  padding: 0 15px;
 
 }
 
@@ -115,31 +118,36 @@ p{
 
 nav.menu {
   width: 100%;
-  height: 60px;
+  height: 30px;
   background-color: transparent;
   z-index:100;
-  position: fixed;
+  /*position: fixed;*/
   padding-top: 30px
 }
 nav ul li{
   float: left;
   list-style: none;
-  margin: 30px 10px;
+  margin: 0px 10px;
 }
 
 #zhen{
   float: left;
   /*margin-top: 27px;*/
-  font-family: "orator-std",sans-serif;
-  font-size: 18px;
-  letter-spacing: 16px;
+  font-family: "Yanone Kaffeesatz",sans-serif;
+  font-size: 2em;
+  letter-spacing: 3px;
+  padding-left: 15px;
+  font-weight: 700;
 }
 
+
 #navmenu ul li{
-  margin-top: 12px;
-  font-family: "orator-std",sans-serif;
-  font-size: 11px;
+  margin-top: 1em;
+  font-family: "Catamaran",sans-serif;
+  font-size: 12px;
   margin-bottom: 1px;
+  letter-spacing: 3px;
+  font-weight: 600;
 
 }
 
@@ -154,49 +162,21 @@ nav ul li{
 
 /*  --------  FOOTER  --------  */
 
-div.footer{
+footer{
   font-family: "orator-std",sans-serif;
   font-size: 11px;
-  position: fixed;
-  bottom: 30px;
   text-align: center;
-  z-index: 9999;
+  z-index: 100;
   width: 100%;
-  display: none;
-}
-
-div.footer ul#menu-list{
-  width: 100%
-}
-
-div.footer nav ul{
-  margin-left: -50px;
-}
-
-
-div.footer nav ul li{
-  margin-bottom: 1px;
-}
-
-div.footer nav ul li a{
-  text-transform: none;
-  text-decoration: none;
+  padding: 100px 0 0px 0;
+  width: 100%;
+  font-family: "acumin-pro", sans-serif;
   font-size: 11px;
-  font-family: "orator-std",sans-serif;
-  padding-right: 30px;
+  color: #909090;
+  display:block;
 }
 
-div.footer li.right{
-  margin-right: -50px
-}
 
-div.footer li.right a{
-  font-family: "orator-std",sans-serif;
-  float: left;
-  padding-right: 2px;
-  padding-left: 5px;
-  font-size: 12px
-}
 
 
 
@@ -215,7 +195,7 @@ section {
 /*----------- SECTION WORKS -----------*/
 
 section#works {
-padding: 80px 0 100px;
+padding: 40px 0 0 0;
 }
 
 section#works div.article-block{
@@ -223,23 +203,24 @@ section#works div.article-block{
   width: auto;
   height: auto;
   text-align: center;
-  padding: 20px 10px;  
-  font-family: "orator-std",sans-serif;
+  padding: 20px 0px;  
+  font-family: "Catamaran",sans-serif;
 }
 
 section#works div.article-block h3, h4, h5{
-  font-family: "orator-std",sans-serif;
+  font-family: "Catamaran",sans-serif;
   font-size: 12px;
   margin: 10px auto 14px auto;
 }
 
 section#works div.article-block h2{
-  font-family: "orator-std",sans-serif;
+  font-family: "Catamaran",sans-serif;
   font-size: 17px;
   width: auto;
   margin: 10px auto 0 auto;
   color: #000;
   clear:both;
+  font-weight: 600;
 }
 
 section#works div.article-block .row-works{

@@ -1,6 +1,6 @@
 .aWorks{
 	display: block;
-	padding: 120px 20px;
+	padding: 60px 20px;
 }
 
 .aWorks a{
@@ -12,6 +12,7 @@
 }
 
 .aWorks h3, h4{
-   font-family: "orator-std",sans-serif;	
+   font-family: "Catamaran",sans-serif;	
+   padding: 20px 0 10px 0;
 }
 
