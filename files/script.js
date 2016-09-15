@@ -21,7 +21,7 @@ $(document).ready(function () {
     });
   
   //head nav
-  $('#head-nav').append("<link href='https://fonts.googleapis.com/css?family=Catamaran:400,600|Yanone+Kaffeesatz:400,700' rel='stylesheet'><div class='container'><div id='zhen'><a href='http://zzhen.us/'class='white'>ZHEN L</a></div><div class='right' id='navmenu'><ul><li><a href='http://zzhen.us/#works'>WORKS</a></li><li><a href='http://zzhen.us/blog' target='_blank'>BLOG</a></li><li><a href='http://zzhen.us/about'>ABOUT</a></li></ul></div></div>");
+  $('#head-nav').append("<link href='https://fonts.googleapis.com/css?family=Catamaran:400,600|Yanone+Kaffeesatz:400,700' rel='stylesheet'><div class='container'><div id='zhen'><a href='/'class='white'>ZHEN L</a></div><div class='right' id='navmenu'><ul><li id='nav-interaction'><a href='/'>INTERACTION</a></li><li id='nav-graphics'><a href='/gallery'>GRAPHICS</a></li><li id='nav-about'><a href='/about'>ABOUT</a></li></ul></div></div>");
 
    //foot
    $('body').append("<footer>All images on this site are Copyright © 2016. Website hand coded by Zhen.</footer>");
